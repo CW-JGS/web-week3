@@ -1,0 +1,60 @@
+.mainDataComponentContainer {
+    margin: 0 1rem;
+    .section1 {
+        .banner {
+            background-color: #9bbe00;
+            padding: 3rem 1rem;
+            color: #fefefe;
+            .heading {
+                text-align: right;
+                margin-right: 1rem;
+                font-size: 4rem;
+            }
+            .subHeading {
+                text-align: right;
+                margin-right: 1rem;
+                font-size: 1.5rem;
+            }
+        }
+    }
+    .section2 {
+        display: flex;
+        margin-top: 1rem;
+
+        .content {
+            margin-left: 3.5rem;
+            margin-right: 1rem;
+            width: 65%;
+            .contentHeader {
+                color: #F4A80A;
+                padding: 1rem 0 0 0;
+            }
+            .paragraph {
+                padding: 1rem 0;
+            }
+            .more {
+                padding: 3rem 0;
+                color: #F4A80A;
+                text-decoration: none;
+
+            }
+        }
+        .news-bar {
+            padding-left: 1rem;
+            margin-right: 3.5rem;
+            text-align: center;
+            width: 20%;
+            border-left: 1px solid #111;
+            .Heading {
+                text-align: center;
+            }
+            .newsBox {
+                padding: 1rem;
+                text-align: justify;
+                .date {
+                    color: #F4A80A;
+                }
+            }
+        }
+    }
+}
